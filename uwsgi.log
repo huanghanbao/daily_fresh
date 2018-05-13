@@ -1,0 +1,282 @@
+*** Starting uWSGI 2.0.17 (64bit) on [Thu May  3 12:20:13 2018] ***
+compiled with version: 5.4.0 20160609 on 02 May 2018 21:45:13
+os: Linux-4.4.0-31-generic #50-Ubuntu SMP Wed Jul 13 00:07:12 UTC 2016
+nodename: ubuntu
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /home/python/code/dailyfresh
+writing pidfile to uwsgi.pid
+detected binary path: /home/python/.virtualenvs/django_py3/bin/uwsgi
+chdir() to /home/python/code/dailyfresh
+your processes number limit is 11519
+your memory page size is 4096 bytes
+detected max file descriptor number: 1048576
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+probably another instance of uWSGI is running on the same address (127.0.0.1:8080).
+bind(): Address already in use [core/socket.c line 769]
+*** Starting uWSGI 2.0.17 (64bit) on [Thu May  3 12:20:44 2018] ***
+compiled with version: 5.4.0 20160609 on 02 May 2018 21:45:13
+os: Linux-4.4.0-31-generic #50-Ubuntu SMP Wed Jul 13 00:07:12 UTC 2016
+nodename: ubuntu
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /home/python/code/dailyfresh
+writing pidfile to uwsgi.pid
+detected binary path: /home/python/.virtualenvs/django_py3/bin/uwsgi
+chdir() to /home/python/code/dailyfresh
+your processes number limit is 11519
+your memory page size is 4096 bytes
+detected max file descriptor number: 1048576
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on 127.0.0.1:8080 fd 4
+uwsgi socket 0 bound to TCP address 127.0.0.1:45611 (port auto-assigned) fd 3
+Python version: 3.5.2 (default, Nov 23 2017, 16:37:01)  [GCC 5.4.0 20160609]
+Set PythonHome to /home/python/.virtualenvs/django_py3
+Python main interpreter initialized at 0x1828530
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 416880 bytes (407 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x1828530 pid: 46299 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 46299)
+spawned uWSGI worker 1 (pid: 46303, cores: 2)
+spawned uWSGI worker 2 (pid: 46304, cores: 2)
+spawned uWSGI worker 3 (pid: 46305, cores: 2)
+spawned uWSGI worker 4 (pid: 46306, cores: 2)
+spawned uWSGI http 1 (pid: 46307)
+使用缓存
+[pid: 46303|app: 0|req: 1/1] 127.0.0.1 () {38 vars in 662 bytes} [Thu May  3 12:21:42 2018] GET /index => generated 19001 bytes in 801 msecs (HTTP/1.1 200) 3 headers in 102 bytes (1 switches on core 0)
+[pid: 46303|app: 0|req: 3/2] 127.0.0.1 () {38 vars in 661 bytes} [Thu May  3 12:21:44 2018] GET /static/js/jquery-1.12.4.min.js => generated 104 bytes in 39 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 46303|app: 0|req: 3/3] 127.0.0.1 () {38 vars in 656 bytes} [Thu May  3 12:21:43 2018] GET /static/css/reset.css => generated 94 bytes in 91 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 1)
+[pid: 46306|app: 0|req: 1/4] 127.0.0.1 () {38 vars in 637 bytes} [Thu May  3 12:21:44 2018] GET /static/js/slide.js => generated 92 bytes in 646 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 46305|app: 0|req: 2/6] 127.0.0.1 () {38 vars in 654 bytes} [Thu May  3 12:21:43 2018] GET /static/css/main.css => generated 93 bytes in 717 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 46305|app: 0|req: 2/6] 127.0.0.1 () {38 vars in 653 bytes} [Thu May  3 12:21:44 2018] GET /static/js/jquery-ui.min.js => generated 100 bytes in 667 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 1)
+[pid: 46306|app: 0|req: 2/7] 127.0.0.1 () {38 vars in 645 bytes} [Thu May  3 12:21:44 2018] GET /static/images/logo.png => generated 96 bytes in 2 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 1)
+[pid: 46304|app: 0|req: 1/8] 127.0.0.1 () {38 vars in 637 bytes} [Thu May  3 12:21:44 2018] GET /static/js/slide.js => generated 92 bytes in 277 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 46306|app: 0|req: 3/9] 127.0.0.1 () {38 vars in 645 bytes} [Thu May  3 12:21:45 2018] GET /static/images/logo.png => generated 96 bytes in 1 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 1)
+[pid: 46305|app: 0|req: 3/10] 127.0.0.1 () {38 vars in 637 bytes} [Thu May  3 12:21:45 2018] GET /static/js/slide.js => generated 92 bytes in 1 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+*** Starting uWSGI 2.0.17 (64bit) on [Thu May  3 12:33:27 2018] ***
+compiled with version: 5.4.0 20160609 on 02 May 2018 21:45:13
+os: Linux-4.4.0-31-generic #50-Ubuntu SMP Wed Jul 13 00:07:12 UTC 2016
+nodename: ubuntu
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /home/python/code/dailyfresh
+writing pidfile to uwsgi.pid
+detected binary path: /home/python/.virtualenvs/django_py3/bin/uwsgi
+chdir() to /home/python/code/dailyfresh
+your processes number limit is 11519
+your memory page size is 4096 bytes
+detected max file descriptor number: 1048576
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+probably another instance of uWSGI is running on the same address (127.0.0.1:8080).
+bind(): Address already in use [core/socket.c line 769]
+Thu May  3 12:37:02 2018 - uWSGI worker 4 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Thu May  3 12:37:02 2018 - uWSGI worker 2 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+*** Starting uWSGI 2.0.17 (64bit) on [Thu May  3 12:37:24 2018] ***
+compiled with version: 5.4.0 20160609 on 02 May 2018 21:45:13
+os: Linux-4.4.0-31-generic #50-Ubuntu SMP Wed Jul 13 00:07:12 UTC 2016
+nodename: ubuntu
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /home/python/code/dailyfresh
+writing pidfile to uwsgi.pid
+detected binary path: /home/python/.virtualenvs/django_py3/bin/uwsgi
+chdir() to /home/python/code/dailyfresh
+your processes number limit is 11519
+your memory page size is 4096 bytes
+detected max file descriptor number: 1048576
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address 127.0.0.1:8080 fd 3
+Python version: 3.5.2 (default, Nov 23 2017, 16:37:01)  [GCC 5.4.0 20160609]
+Set PythonHome to /home/python/.virtualenvs/django_py3
+Python main interpreter initialized at 0x16c2430
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 416880 bytes (407 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x16c2430 pid: 46507 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 46507)
+spawned uWSGI worker 1 (pid: 46511, cores: 2)
+spawned uWSGI worker 2 (pid: 46512, cores: 2)
+spawned uWSGI worker 3 (pid: 46513, cores: 2)
+spawned uWSGI worker 4 (pid: 46514, cores: 2)
+没有缓存，从mysql数据库中读取
+[pid: 46511|app: 0|req: 1/1] 127.0.0.1 () {40 vars in 696 bytes} [Thu May  3 12:37:33 2018] GET /index => generated 19001 bytes in 690 msecs (HTTP/1.1 200) 3 headers in 102 bytes (1 switches on core 0)
+
+
+
+
+
+
+
+
+
+
+
+
+*** Starting uWSGI 2.0.17 (64bit) on [Sun May  6 00:18:56 2018] ***
+compiled with version: 5.4.0 20160609 on 05 May 2018 09:31:09
+os: Linux-4.4.0-31-generic #50-Ubuntu SMP Wed Jul 13 00:07:12 UTC 2016
+nodename: ubuntu
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /home/python/Desktop/天天生鲜 /dailyfresh
+writing pidfile to uwsgi.pid
+detected binary path: /home/python/.virtualenvs/django_py3/bin/uwsgi
+chdir() to /home/python/code/dailyfresh
+chdir(): No such file or directory [core/uwsgi.c line 2629]
+*** Starting uWSGI 2.0.17 (64bit) on [Sun May  6 00:33:10 2018] ***
+compiled with version: 5.4.0 20160609 on 05 May 2018 09:31:09
+os: Linux-4.4.0-31-generic #50-Ubuntu SMP Wed Jul 13 00:07:12 UTC 2016
+nodename: ubuntu
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /home/python/Desktop/天天生鲜 /dailyfresh
+writing pidfile to uwsgi.pid
+detected binary path: /home/python/.virtualenvs/django_py3/bin/uwsgi
+chdir() to /home/python/Desktop/天天生鲜/dailyfresh
+chdir(): No such file or directory [core/uwsgi.c line 2629]
+*** Starting uWSGI 2.0.17 (64bit) on [Sun May  6 00:33:45 2018] ***
+compiled with version: 5.4.0 20160609 on 05 May 2018 09:31:09
+os: Linux-4.4.0-31-generic #50-Ubuntu SMP Wed Jul 13 00:07:12 UTC 2016
+nodename: ubuntu
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /home/python/Desktop/天天生鲜 /dailyfresh
+writing pidfile to uwsgi.pid
+detected binary path: /home/python/.virtualenvs/django_py3/bin/uwsgi
+chdir() to /home/python/Desktop/天天生鲜/dailyfresh
+chdir(): No such file or directory [core/uwsgi.c line 2629]
+*** Starting uWSGI 2.0.17 (64bit) on [Sun May  6 00:35:39 2018] ***
+compiled with version: 5.4.0 20160609 on 05 May 2018 09:31:09
+os: Linux-4.4.0-31-generic #50-Ubuntu SMP Wed Jul 13 00:07:12 UTC 2016
+nodename: ubuntu
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /home/python/Desktop/天天生鲜/dailyfresh
+writing pidfile to uwsgi.pid
+detected binary path: /home/python/.virtualenvs/django_py3/bin/uwsgi
+chdir() to /home/python/Desktop/天天生鲜/dailyfresh
+your processes number limit is 7775
+your memory page size is 4096 bytes
+detected max file descriptor number: 1048576
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address 127.0.0.1:8080 fd 3
+Python version: 3.5.2 (default, Nov 23 2017, 16:37:01)  [GCC 5.4.0 20160609]
+Set PythonHome to /home/python/.virtualenvs/django_py3
+Python main interpreter initialized at 0x108e4c0
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 416880 bytes (407 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x108e4c0 pid: 11766 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 11766)
+spawned uWSGI worker 1 (pid: 11770, cores: 2)
+spawned uWSGI worker 2 (pid: 11771, cores: 2)
+spawned uWSGI worker 3 (pid: 11772, cores: 2)
+spawned uWSGI worker 4 (pid: 11773, cores: 2)
+[pid: 11772|app: 0|req: 1/1] 127.0.0.1 () {42 vars in 676 bytes} [Sun May  6 00:36:07 2018] GET /js/slideshow.js => generated 89 bytes in 301 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 11772|app: 0|req: 2/2] 127.0.0.1 () {42 vars in 737 bytes} [Sun May  6 00:36:08 2018] GET /detail/5 => generated 11698 bytes in 177 msecs (HTTP/1.1 200) 4 headers in 224 bytes (1 switches on core 1)
+[pid: 11770|app: 0|req: 1/3] 127.0.0.1 () {48 vars in 848 bytes} [Sun May  6 00:36:17 2018] POST /cart/add => generated 49 bytes in 107 msecs (HTTP/1.1 200) 3 headers in 94 bytes (1 switches on core 0)
+[pid: 11770|app: 0|req: 2/4] 127.0.0.1 () {50 vars in 925 bytes} [Sun May  6 00:36:29 2018] POST /users/login => generated 2500 bytes in 21 msecs (HTTP/1.1 200) 4 headers in 224 bytes (1 switches on core 1)
+没有缓存，从mysql数据库中读取
+[pid: 11770|app: 0|req: 3/5] 127.0.0.1 () {44 vars in 817 bytes} [Sun May  6 00:36:37 2018] GET /index => generated 19001 bytes in 200 msecs (HTTP/1.1 200) 3 headers in 102 bytes (1 switches on core 0)
+[pid: 11770|app: 0|req: 4/6] 127.0.0.1 () {50 vars in 968 bytes} [Sun May  6 00:36:47 2018] POST /orders/place => generated 6632 bytes in 35 msecs (HTTP/1.1 200) 4 headers in 224 bytes (1 switches on core 1)
+[pid: 11770|app: 0|req: 5/7] 127.0.0.1 () {42 vars in 805 bytes} [Sun May  6 00:36:54 2018] GET /users/orders/1 => generated 7211 bytes in 80 msecs (HTTP/1.1 200) 4 headers in 224 bytes (1 switches on core 0)
+40004 None
+40004 None
+40004 None
+40004 None
+40004 None
+40004 None
+40004 None
+40004 None
+40004 None
+40004 None
+40004 None
+40004 None
+40004 None
+40004 None
+40004 None
+40004 None
+40004 None
+40004 None
+40004 None
+40004 None
+40004 None
+40004 None
+40004 None
+40004 None
+40004 None
+40004 None
+40004 None
+40004 None
+40004 None
+40004 None
+40004 None
+40004 None
+40004 None
+40004 None
+40004 None
+40004 None
+40004 None
+40004 None
+40004 None
+40004 None
+40004 None
+40004 None
+[pid: 11770|app: 0|req: 6/8] 127.0.0.1 () {48 vars in 906 bytes} [Sun May  6 00:36:58 2018] POST /orders/check => generated 27 bytes in 127763 msecs (HTTP/1.1 500) 3 headers in 106 bytes (1 switches on core 1)
+[pid: 11770|app: 0|req: 7/9] 127.0.0.1 () {40 vars in 689 bytes} [Sun May  6 15:46:00 2018] GET /js/slideshow.js => generated 89 bytes in 150 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 11770|app: 0|req: 8/10] 127.0.0.1 () {48 vars in 892 bytes} [Sun May  6 15:46:04 2018] POST /cart/add => generated 29 bytes in 132 msecs (HTTP/1.1 200) 3 headers in 94 bytes (1 switches on core 1)
+[pid: 11770|app: 0|req: 9/11] 127.0.0.1 () {48 vars in 906 bytes} [Sun May  6 15:46:10 2018] POST /orders/commit => generated 62 bytes in 191 msecs (HTTP/1.1 200) 3 headers in 94 bytes (1 switches on core 0)
+[pid: 11770|app: 0|req: 10/12] 127.0.0.1 () {48 vars in 902 bytes} [Sun May  6 15:46:19 2018] POST /orders/pay => generated 805 bytes in 110 msecs (HTTP/1.1 200) 3 headers in 94 bytes (1 switches on core 1)
+[pid: 11770|app: 0|req: 11/13] 127.0.0.1 () {40 vars in 645 bytes} [Sun May  6 15:55:12 2018] GET /js/slideshow.js => generated 89 bytes in 33 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 11770|app: 0|req: 12/14] 127.0.0.1 () {42 vars in 737 bytes} [Sun May  6 15:55:13 2018] GET /detail/1 => generated 12916 bytes in 170 msecs (HTTP/1.1 200) 4 headers in 224 bytes (1 switches on core 1)
+[pid: 11771|app: 0|req: 1/15] 127.0.0.1 () {44 vars in 819 bytes} [Sun May  6 15:55:15 2018] GET /users/login?next=/orders/place => generated 2470 bytes in 1250 msecs (HTTP/1.1 200) 4 headers in 224 bytes (1 switches on core 1)
+[pid: 11772|app: 0|req: 3/16] 127.0.0.1 () {44 vars in 834 bytes} [Sun May  6 15:55:24 2018] GET /cart => generated 0 bytes in 257 msecs (HTTP/1.1 301) 3 headers in 137 bytes (1 switches on core 1)
+使用缓存
+[pid: 11773|app: 0|req: 1/17] 127.0.0.1 () {42 vars in 780 bytes} [Sun May  6 15:55:27 2018] GET /index => generated 19001 bytes in 708 msecs (HTTP/1.1 200) 3 headers in 102 bytes (1 switches on core 1)
+[pid: 11770|app: 0|req: 13/18] 127.0.0.1 () {50 vars in 968 bytes} [Sun May  6 15:55:30 2018] POST /orders/place => generated 6645 bytes in 80 msecs (HTTP/1.1 200) 4 headers in 224 bytes (1 switches on core 0)
+[pid: 11770|app: 0|req: 14/19] 127.0.0.1 () {42 vars in 805 bytes} [Sun May  6 15:55:36 2018] GET /users/orders/1 => generated 7388 bytes in 57 msecs (HTTP/1.1 200) 4 headers in 224 bytes (1 switches on core 1)
+[pid: 11770|app: 0|req: 15/20] 127.0.0.1 () {42 vars in 807 bytes} [Sun May  6 15:55:39 2018] GET /users/orders/6 => generated 7480 bytes in 61 msecs (HTTP/1.1 200) 4 headers in 224 bytes (1 switches on core 0)
+[pid: 11770|app: 0|req: 16/21] 127.0.0.1 () {42 vars in 807 bytes} [Sun May  6 15:55:41 2018] GET /users/orders/3 => generated 7483 bytes in 93 msecs (HTTP/1.1 200) 4 headers in 224 bytes (1 switches on core 1)
+[pid: 11770|app: 0|req: 17/22] 127.0.0.1 () {48 vars in 906 bytes} [Sun May  6 15:55:43 2018] POST /orders/check => generated 27 bytes in 484 msecs (HTTP/1.1 500) 3 headers in 106 bytes (1 switches on core 0)
+[pid: 11770|app: 0|req: 18/23] 127.0.0.1 () {48 vars in 906 bytes} [Sun May  6 16:02:10 2018] POST /orders/check => generated 27 bytes in 362 msecs (HTTP/1.1 500) 3 headers in 106 bytes (1 switches on core 1)
+[pid: 11770|app: 0|req: 19/24] 127.0.0.1 () {48 vars in 902 bytes} [Sun May  6 16:02:22 2018] POST /orders/pay => generated 813 bytes in 120 msecs (HTTP/1.1 200) 3 headers in 94 bytes (1 switches on core 0)
+[pid: 11770|app: 0|req: 20/25] 127.0.0.1 () {48 vars in 906 bytes} [Sun May  6 16:03:22 2018] POST /orders/check => generated 27 bytes in 12 msecs (HTTP/1.1 500) 3 headers in 106 bytes (1 switches on core 1)
+[pid: 11771|app: 0|req: 2/26] 127.0.0.1 () {40 vars in 645 bytes} [Mon May  7 16:02:31 2018] GET /js/slideshow.js => generated 89 bytes in 311 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 11771|app: 0|req: 3/27] 127.0.0.1 () {40 vars in 637 bytes} [Mon May  7 16:02:31 2018] GET /favicon.ico => generated 85 bytes in 7 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 1)
+[pid: 11772|app: 0|req: 4/28] 127.0.0.1 () {50 vars in 924 bytes} [Mon May  7 16:02:37 2018] POST /orders/place => generated 0 bytes in 396 msecs (HTTP/1.1 302) 4 headers in 164 bytes (1 switches on core 0)
+[pid: 11772|app: 0|req: 5/29] 127.0.0.1 () {50 vars in 981 bytes} [Mon May  7 16:02:46 2018] POST /users/login?next=/orders/place => generated 0 bytes in 649 msecs (HTTP/1.1 302) 6 headers in 335 bytes (1 switches on core 1)
+[pid: 11770|app: 0|req: 21/30] 127.0.0.1 () {44 vars in 836 bytes} [Mon May  7 16:02:47 2018] GET /cart/ => generated 11790 bytes in 481 msecs (HTTP/1.1 200) 4 headers in 224 bytes (1 switches on core 0)
+[pid: 11770|app: 0|req: 22/31] 127.0.0.1 () {42 vars in 786 bytes} [Mon May  7 16:02:52 2018] GET /detail/1 => generated 12907 bytes in 109 msecs (HTTP/1.1 200) 4 headers in 224 bytes (1 switches on core 1)
+[pid: 11770|app: 0|req: 23/32] 127.0.0.1 () {48 vars in 906 bytes} [Mon May  7 16:02:58 2018] POST /orders/commit => generated 62 bytes in 199 msecs (HTTP/1.1 200) 3 headers in 94 bytes (1 switches on core 0)
+[pid: 11770|app: 0|req: 24/33] 127.0.0.1 () {48 vars in 902 bytes} [Mon May  7 16:03:05 2018] POST /orders/pay => generated 801 bytes in 112 msecs (HTTP/1.1 200) 3 headers in 94 bytes (1 switches on core 1)
